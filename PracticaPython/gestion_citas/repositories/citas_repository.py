@@ -1,20 +1,27 @@
-class CitasRepository():
-    self.citas = []
+class CitasRepository:
+    def __init__(self):
+        self.citas = []
 
-    def anadirCita(self, cita):
-        print()
+    def anadir_cita(self, cita):
+        self.citas.append(cita)
 
-    def obtenerCitasPorEmpleado(self, empleado):
-        print()
+    def obtener_citas_por_empleado(self, empleado):
+        return [citas for citas in self.citas if citas.empleado == empleado]
 
-    def obtenerCitasPorCliente(self, cliente):
-        print()
+    def obtener_citas_por_cliente(self, cliente):
+        return [citas for citas in self.citas if citas.cliente == cliente]
 
-    def comprobarCita(self, cita):
-        print()
+    def comprobar_cita_empleado(self, empleado, fecha, hora):
+        return any(
+            cita.empleado == empleado and cita.fecha == fecha and cita.hora == hora
+            for cita in self.citas
+        )
 
-    def obtenerCitasConfirmadas(self):
-        print()
+    def obtener_citas_confirmadas(self):
+        return [cita for cita in self.citas if cita.estado == "CONFIRMADA"]
 
-    def agruparCitasPorEmpleado(self, empleado):
-        print()
+    def agrupar_citas_por_empleado(self):
+        resultado = {}
+        for cita in self.citas:
+            resultado.setdefault(cita.empleado, []).append(cita)
+        return resultado

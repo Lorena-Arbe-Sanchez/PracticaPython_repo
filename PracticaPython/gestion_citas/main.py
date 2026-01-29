@@ -9,4 +9,15 @@ def menu():
            "7. Ver citas de un cliente\n"
            "0. Salir")
 
-menu()
+def main():
+    while True:
+        menu()
+
+        opcion = input("Ingrese su opcion: ")
+        if opcion == "0":
+            print("Salir")
+            break
+
+
+if __name__ == "__main__":
+    main()

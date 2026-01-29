@@ -11,9 +11,3 @@ class CitaSolapadaError(Exception):
 class EstadoCitaError(Exception):
     def __init__(self, cita):
         super().__init__(f"Cita: {cita}")
-
-# TODO
-"""
-Cuando se quiera ejecutar:
-raise UsuarioInactivoError(b)
-"""
