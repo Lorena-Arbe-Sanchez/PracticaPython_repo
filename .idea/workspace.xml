@@ -1,38 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f8513c5-1c14-4f2b-8ad8-d0e3dc92a7ed" name="Changes" comment="" />
+    <list default="true" id="3f8513c5-1c14-4f2b-8ad8-d0e3dc92a7ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PracticaPython_repo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/services/gestor_citas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/exceptions/errores.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/exceptions/errores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/cita.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/cita.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/empleado.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/empleado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/gestor_citas.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/repositories/citas_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/repositories/citas_repository.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="38r1imQgntHFL611uddI5nuDeWR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lorena/Downloads/PracticaPython_repo/PracticaPython/gestion_citas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lorena\Downloads\PracticaPython_repo\PracticaPython\gestion_citas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
+        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3f8513c5-1c14-4f2b-8ad8-d0e3dc92a7ed" name="Changes" comment="" />
@@ -40,7 +76,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769543004768</updated>
+      <workItem from="1769600591979" duration="8168000" />
+      <workItem from="1769689180849" duration="5627000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
