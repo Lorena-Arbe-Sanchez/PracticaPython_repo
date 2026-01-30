@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f8513c5-1c14-4f2b-8ad8-d0e3dc92a7ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PracticaPython_repo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/services/gestor_citas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/exceptions/errores.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/exceptions/errores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/cita.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/cita.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/empleado.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/empleado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/gestor_citas.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/models/usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticaPython/gestion_citas/repositories/citas_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/PracticaPython/gestion_citas/repositories/citas_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1769543004768</updated>
       <workItem from="1769600591979" duration="8168000" />
-      <workItem from="1769689180849" duration="5627000" />
+      <workItem from="1769689180849" duration="6576000" />
+      <workItem from="1769766964916" duration="8944000" />
     </task>
     <servers />
   </component>
