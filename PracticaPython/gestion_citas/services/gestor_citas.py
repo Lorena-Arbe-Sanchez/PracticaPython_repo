@@ -1,5 +1,5 @@
 from gestion_citas.exceptions.errores import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
-from gestion_citas.models.cita import Cita
+from gestion_citas.models import Cliente, Empleado, Cita
 
 
 class GestorCitas():

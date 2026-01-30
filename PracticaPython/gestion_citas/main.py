@@ -10,6 +10,11 @@ from gestion_citas.exceptions.errores import (
     EstadoCitaError
 )
 """
+from gestion_citas.models import Cliente, Empleado, Cita
+from gestion_citas.repositories import CitasRepository
+from gestion_citas.services import GestorCitas
+from gestion_citas.exceptions import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
+
 
 def menu():
     print(
@@ -48,7 +53,7 @@ def main():
 
                 cliente = Cliente(id, nombre, email, telefono)
                 clientes.append(cliente)
-                print("Cliente creado correctamente.")
+                print("✅ Cliente creado correctamente.")
 
             elif opcion == "2":
                 id = input("ID empleado: ")
@@ -58,7 +63,7 @@ def main():
 
                 empleado = Empleado(id, nombre, email, especialidad)
                 empleados.append(empleado)
-                print("Empleado creado correctamente.")
+                print("✅ Empleado creado correctamente.")
 
             elif opcion == "3":
                 id = input("ID cita: ")
@@ -80,7 +85,7 @@ def main():
 
                 cita = gestor.crear_cita(id, cliente, empleado, fecha, hora)
                 citas.append(cita)
-                print("Cita creada correctamente.")
+                print("✅ Cita creada correctamente.")
 
             elif opcion == "4":
                 for i, c in enumerate(citas):
@@ -88,7 +93,7 @@ def main():
 
                 cita = citas[int(input("Seleccione cita: "))]
                 gestor.confirmar_cita(cita)
-                print("Cita confirmada.")
+                print("✅ Cita confirmada.")
 
             elif opcion == "5":
                 for i, c in enumerate(citas):
@@ -96,7 +101,7 @@ def main():
 
                 cita = citas[int(input("Seleccione cita: "))]
                 gestor.cancelar_cita(cita)
-                print("Cita cancelada.")
+                print("✅ Cita cancelada.")
 
             elif opcion == "6":
                 for i, e in enumerate(empleados):
@@ -119,13 +124,13 @@ def main():
                         print(c.to_dict())
 
             else:
-                print("La opción debe ser un número entre el 0 y el 7.")
+                print("❌ La opción debe ser un número entre el 0 y el 7.")
 
         except (UsuarioInactivoError, CitaSolapadaError, EstadoCitaError, ValueError) as e:
-            print(f"Error: {e}")
+            print(f"⚠️ Error: {e}")
 
         except IndexError:
-            print("Selección inválida")
+            print("⚠️ Selección inválida")
 
 if __name__ == "__main__":
     main()

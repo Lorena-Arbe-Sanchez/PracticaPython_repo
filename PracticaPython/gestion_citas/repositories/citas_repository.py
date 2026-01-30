@@ -20,7 +20,7 @@ class CitasRepository:
     def obtener_citas_confirmadas(self):
         return [cita for cita in self.citas if cita.estado == "CONFIRMADA"]
 
-    def agrupar_citas_por_empleado(self):
+    def agrupar_citas_empleado(self):
         resultado = {}
         for cita in self.citas:
             resultado.setdefault(cita.empleado, []).append(cita)
