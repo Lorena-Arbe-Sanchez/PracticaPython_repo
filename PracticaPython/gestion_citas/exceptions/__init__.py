@@ -1,1 +1,5 @@
-from .errores import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
+from .errores import (
+    UsuarioInactivoError,
+    CitaSolapadaError,
+    EstadoCitaError
+)

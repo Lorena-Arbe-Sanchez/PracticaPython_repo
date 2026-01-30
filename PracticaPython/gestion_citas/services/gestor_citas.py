@@ -1,8 +1,8 @@
-from gestion_citas.exceptions.errores import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
-from gestion_citas.models import Cliente, Empleado, Cita
+from exceptions.errores import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
+from models.cita import Cita
 
 
-class GestorCitas():
+class GestorCitas:
     def __init__(self, repositorio):
         self.repositorio = repositorio
 

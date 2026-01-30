@@ -1,4 +1,4 @@
-from gestion_citas.models.usuario import Usuario
+from .usuario import Usuario
 
 
 class Empleado(Usuario):

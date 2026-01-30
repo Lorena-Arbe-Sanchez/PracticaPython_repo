@@ -1,19 +1,7 @@
-# TODO : Poner según errores de abajo
-"""
-from gestion_citas.models.cliente import Cliente
-from gestion_citas.models.empleado import Empleado
-from gestion_citas.repositories.citas_repository import CitasRepository
-from gestion_citas.services.gestor_citas import GestorCitas
-from gestion_citas.exceptions.errores import (
-    UsuarioInactivoError,
-    CitaSolapadaError,
-    EstadoCitaError
-)
-"""
-from gestion_citas.models import Cliente, Empleado, Cita
-from gestion_citas.repositories import CitasRepository
-from gestion_citas.services import GestorCitas
-from gestion_citas.exceptions import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
+from exceptions import UsuarioInactivoError, CitaSolapadaError, EstadoCitaError
+from models import Cliente, Empleado
+from repositories import CitasRepository
+from services import GestorCitas
 
 
 def menu():
